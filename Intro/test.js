@@ -1,1 +1,3 @@
-console.log("this is working")
+let status ="online";
+
+let color = status ==="offline" ? "red" : "green";
