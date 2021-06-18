@@ -25,4 +25,12 @@ function findAverage(array){
     return total/array.length;
 }
 
-function isPangram()
+function isPangram(sentence){
+    const alpha = "abcdefghijklmnopqrstuvwxyz";
+    sentence = sentence.toLowerCase();
+    for(let item of alpha){
+        if(!sentence.includes(item))
+            return false;
+    }
+    return true;
+}
