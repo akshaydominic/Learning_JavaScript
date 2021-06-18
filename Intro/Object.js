@@ -48,8 +48,21 @@ function getCard(){
     return obj;
 }
 
+function Multiply(num){
+    return function(x){
+        return x* num;
+    }
+}
 
 
+const hello = function(){
+    return "hello World";
+}
+const hi = function(){
+    return "bye-bye";
+}
+
+const arr =[hello,hi];
 
 
 
