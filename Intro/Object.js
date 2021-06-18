@@ -9,3 +9,20 @@ function display(obj){
     }
     return "success";
 }
+
+function isValidPassword(password,username){
+    if(password.length >= 8 && !(password.includes(" ")) && !(password.includes(username))){
+        return true;
+    }
+    return false;
+}
+
+function findAverage(array){
+    let total=0;
+    for(let item of array){
+        total+=item;
+    }
+    return total/array.length;
+}
+
+function isPangram()
