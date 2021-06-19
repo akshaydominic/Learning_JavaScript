@@ -29,3 +29,6 @@ let foundWord = words.find(string=>(
     string.includes('rs')
 ));
 
+//filter
+
+let onlyEven = arr.filter(n=>(n%2==0));
