@@ -53,3 +53,10 @@ let reducedVote = votes.reduce((total,current)=>{
         total[current]=1;
     return total;
 },{})
+
+//Spread spreading the contents in the data structure
+const exampleSpread = [1,2,3,4,5,10,20,30];
+// ...exampleSpread
+
+//Rest grouping the elements in the data sructures;
+
