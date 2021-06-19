@@ -32,3 +32,12 @@ let foundWord = words.find(string=>(
 //filter
 
 let onlyEven = arr.filter(n=>(n%2==0));
+
+//every 
+
+let numResult = arr.every(n=>(n>1));
+
+//some
+
+let numResultSome = arr.some(n=>(n<0));
+
