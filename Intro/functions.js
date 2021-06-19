@@ -65,3 +65,4 @@ let RestExample = (...num)=>{
         return total+val;
     })
 };
+
