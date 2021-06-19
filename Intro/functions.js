@@ -60,3 +60,8 @@ const exampleSpread = [1,2,3,4,5,10,20,30];
 
 //Rest grouping the elements in the data sructures;
 
+let RestExample = (...num)=>{
+   return num.reduce((total,val)=>{
+        return total+val;
+    })
+};
