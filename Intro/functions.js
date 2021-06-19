@@ -41,3 +41,6 @@ let numResult = arr.every(n=>(n>1));
 
 let numResultSome = arr.some(n=>(n<0));
 
+//Sort
+
+let sortedNum = arr.slice().sort((a,b)=>(a-b));
