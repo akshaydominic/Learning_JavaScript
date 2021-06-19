@@ -1,5 +1,6 @@
 const arr =[7,3,13,11,10,20,30,40,50];
 const words = ['asap','byob','rsvp','diy'];
+const votes =['y','y','y','y','n','n','y','n'];
 
 //forEach
 // arr.forEach(n=>(console.log(n*2)));
@@ -44,3 +45,11 @@ let numResultSome = arr.some(n=>(n<0));
 //Sort
 
 let sortedNum = arr.slice().sort((a,b)=>(a-b));
+
+let reducedVote = votes.reduce((total,current)=>{
+    if(total[current])
+        total[current]++;
+    else
+        total[current]=1;
+    return total;
+},{})
