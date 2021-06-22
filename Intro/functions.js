@@ -1,6 +1,7 @@
 const arr =[7,3,13,11,10,20,30,40,50];
 const words = ['asap','byob','rsvp','diy'];
 const votes =['y','y','y','y','n','n','y','n'];
+// checking from macbook air 
 
 //forEach
 // arr.forEach(n=>(console.log(n*2)));
